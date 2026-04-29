@@ -1,14 +1,14 @@
-# asset_financing_risk_prediction
 ## Asset Financing Risk Prediction
-#### Short one-line description of the project.
+This project aims to predict if an asset should be financed or not.
 ### Problem Statement
-Clearly define the problem you are solving.
-Example:
-Predict customer churn for a telecom company using historical usage data.
+Using customer historical blue print, we predict if a customer should be financed or not.
 ### Objectives
-    Objective 1
-    Objective 2
-    Objective 3
+1. Find the summary statistics of the variable charges in the dataset
+2. Display a table that contains the number of people in each region
+3. Visualize the relationship among all features using a scatterplot matrix
+4. Train a model on the data
+5. Evaluate the model performance
+6. Improve the model performance by Adding nonlinear relationship 
 ### Project Structure
     ├── data/
     │   ├── raw/
@@ -27,30 +27,27 @@ Predict customer churn for a telecom company using historical usage data.
 
 Installation
 ### Clone repository
-git clone https://github.com/your-username/project-name.git
+git clone git@github.com:SamsonO88/asset_financing_risk_prediction.git
 
 ### Navigate into project
-cd project-name
+cd asset_financing_risk_prediction
 
 ### Create virtual environment
-python -m venv venv
+python3 -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 
 ### Install dependencies
 pip install -r requirements.txt
 
 ### Evaluation Metrics
-List metrics used:
-    Accuracy
-    Precision
-    Recall
-    F1 Score
-    ROC-AUC
+Metrics used: 
+    1) F1 Score
+    2) ROC-AUC
 ### Technologies Used
-    Python
-    Pandas, NumPy
-    Scikit-learn
-    Matplotlib / Seaborn
-    Jupyter Notebook
+    1) Python
+    2) Pandas, NumPy
+    3) Scikit-learn
+    4) Matplotlib / Seaborn
+    5) Jupyter Notebook
 ### License
-    Specify license (e.g., MIT License)
+    MIT License
