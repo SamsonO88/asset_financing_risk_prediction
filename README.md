@@ -49,5 +49,7 @@ Metrics used:
     3) Scikit-learn
     4) Matplotlib / Seaborn
     5) Jupyter Notebook
+    6) shap
+    7) xgboost
 ### License
     MIT License
